@@ -1,15 +1,45 @@
-/* 최근수정시간*/
+body {
+    margin: 0px;
+    background-color: #ddd;
+}
+/* 최근수정시간 */
 #time {
+    margin: 0px 20px 20px 20px;
+    color: grey;
     text-align: right;
 }
+
 /* '매미' on 나무위키 배너*/
 #banner {
-    background-color: #008275;
+    background-color: hsl(174, 100%, 25%);
     color: white;
+    padding: 3px 100px;
+}
+
+#banner > span > h3 {
+    margin: 0px;
+}
+
+#wrap {
+    background-color: #ddd;
+    margin-top: 0px;
+}
+
+#wrap > section {
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+}
+/* 매미 -- 제목 */
+#wrap > section > h1 {
+    margin: 0px;
+    padding: 20px 20px 0px 20px;
+    font-size: 36px;
 }
 /*프로필 사진*/
 .profile {
     text-align: center;
+    margin-top: 50px;
 }
 .profile > img {
     width: 500px;
@@ -20,16 +50,28 @@
     margin-bottom:0%;
 }
 
+/* 소제목 타이틀*/
+.sub_title {
+    margin: 20px;
+    padding: 0% 0% 10px 0%;
+    border-bottom: 2px solid #ddd;
+}
+
 /*소제목*/
 .sub_title > span {
     color:#0287e0;
 }
 
+/* 내용 */
+#paragraph {
+    margin: 20px 20px 50px 20px;
+}
+
 h2 > a {
     text-decoration: none;
-    color: #0287e0;
-    
+    color: #0287e0;    
 }
+
 /*table style*/
 table {
     margin-left: auto;
@@ -64,11 +106,16 @@ tr {
     margin-top: 0%;
 }
 
+#annotation > p {
+    margin: 20px;
+}
+
 #annotation > p > a {
     text-decoration: none;
     color: #0287e0;
     
 }
+
 /*footer*/
 #wrap {
     min-height: 100vh;

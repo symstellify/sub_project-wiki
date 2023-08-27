@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>매미 on 나무위키</title>
+    <link rel="icon"  href="images/favicon_io/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--배너-->
-    <div id="banner">
-        <h2>매미 on 나무위키</h2>
-    </div>
-
-    <!--최근 수정 시각 자바스크립트 코드-->
-    <div id="time">
-        <script>
-            document.write("최근 수정 시각: "+document.lastModified+"")
-        </script>
+    <div id="bannerBox">
+        <div id="banner">
+            <div style="float: left">
+                <img src="/images/cicada.png" width="50px">
+            </div>
+            <div>
+                <h3>매미 on 나무위키</h3>
+            </div>
+        </div>
     </div>
 
     <div id="wrap">
         <section>
             <!--타이틀-->
             <h1>매미</h1>
-
+            <!--최근 수정 시각 자바스크립트 코드-->
+            <div id="time">
+                <script>
+                    document.write("최근 수정 시각: "+document.lastModified+"")
+                </script>
+            </div>
             <!--프로필 사진-->
             <div class="profile">
                 <img src="/images/profile.jpg">
